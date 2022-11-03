@@ -605,7 +605,6 @@ background-color:  rgba(33, 150, 243, 0.9);
 height: 100%;
 transform:translateY(100%);
 transition: transform var(--tra);
-overflow: auto;
 }
 .portfolio-link{
   display: block;
@@ -673,6 +672,7 @@ border: 1px solid rgba(0, 0, 0, 0.1);
   justify-content: center;
   cursor: pointer;
   transition: background-color var(--tra);
+  padding: 0;
   
 }
 .modal-close-icon{
